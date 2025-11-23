@@ -25,6 +25,12 @@ PyObject* appSetCameraMaxDistance(PyObject* poSelf, PyObject* poArgs)
 		fMax = 5000.0f;
 	else if (!c_rstrMapFileName.compare("metin2_map_mists_of_island"))
 		fMax = 5000.0f;
+	else if (!c_rstrMapFileName.compare("metin2_map_guild_whitedragon_boss"))
+		fMax = 7000.0f;
+	else if (!c_rstrMapFileName.compare("metin2_map_moonlight_boss"))
+		fMax = 5500.0f;
+	else if (!c_rstrMapFileName.compare("metin2_map_greedy_room"))
+		fMax = 7000.0f;
 
 	CCamera::SetCameraMaxDistance(fMax);
 	return Py_BuildNone();
