@@ -1,0 +1,1 @@
+#define __BL_FIX_CAMERA_ACCORDING_MAP__
