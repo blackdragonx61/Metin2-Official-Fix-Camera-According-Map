@@ -4,6 +4,8 @@
 
 **Reversed From Official Binary.**
 
+- It includes a modification that changes the custom max distance & position based on the map names.
+
 Requirements
 -----------
 - [Metin2 Official Save Camera Mode](https://github.com/blackdragonx61/Metin2-Official-Save-Camera-Mode)
